@@ -105,7 +105,7 @@ def main():
     parser = argparse.ArgumentParser(description="Split PDF lessons into Markdown using Docling")
     parser.add_argument("--input", type=str, required=True, help="Path to input folder containing PDFs")
     parser.add_argument("--output", type=str, required=True, help="Path to output folder for Markdown files")
-    parser.add_argument("--lang", default="ar", help="PaddleOCR language code (default: ar for Arabic)")
+    parser.add_argument("--lang", default="fa", help="PaddleOCR language code (default: fa for Farsi)")
 
     args = parser.parse_args()
 
