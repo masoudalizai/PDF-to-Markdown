@@ -19,7 +19,6 @@ This project provides tools for converting PDF documents into Markdown format, s
 1. **Clone the repository**:
    ```bash
    git clone <repository-url>
-   cd "PDF to MD"
    ```
 
 2. **Create a virtual environment** (Recommended):
